@@ -137,4 +137,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr !important;
+    place-content: center;
+    place-items: center;
+  }
+  .container aside {
+    display: none;
+  }
+  .container .trends {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
